@@ -1,7 +1,11 @@
 # e-commerce
 
 ```
-Created Using:
+Created With:
 
-[React] [Redux] [MongoDB] [Node] [Express]
+[React] [Redux] [MongoDB] [Node] [Express] [JWT]
 ```
+
+
+TO-DO List:
+* Implement payment system. 
