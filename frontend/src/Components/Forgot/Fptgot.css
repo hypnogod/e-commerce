@@ -1,0 +1,42 @@
+.forgot_container {
+  height: 100%;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.forgotBox {
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px 26px !important;
+}
+.forgotBox h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.forgotForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgotForm button {
+    background: linear-gradient(to right, #5a89e5, #4aa9e1, #3ac9dd );
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }

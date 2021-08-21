@@ -1,0 +1,3 @@
+export const USER_REG_LOADING = "USER_REG_LOADING"
+export const USER_REG_SUCCESS = "USER_REG_SUCCESS"
+export const USER_REG_ERROR = "USER_REG_ERROR"

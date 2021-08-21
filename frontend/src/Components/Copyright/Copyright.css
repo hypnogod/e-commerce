@@ -1,0 +1,15 @@
+.compyrightText {
+    background-color: #131A22;
+    max-width: 100%;
+    margin: 0;
+    border-spacing: 0;
+    padding: 10px 0 40px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+@media only screen and (max-width: 540px) {
+    .compyrightText {
+        padding: 20px 10px 20px;
+    }
+}

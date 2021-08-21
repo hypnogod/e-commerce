@@ -1,0 +1,80 @@
+.sidemenuCanvas {
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  top: 0;
+  z-index: 110;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.4);
+  min-width: 265px;
+  max-width: calc(100vw - 50px);
+  width: 19rem;
+  transform: translateX(0);
+  box-sizing: border-box;
+  animation: open 0.5s forwards;
+}
+@keyframes open {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.closeSB {
+  animation-duration: 0.5s;
+  animation-name: close;
+}
+@keyframes close {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-500px);
+  }
+}
+.sidemenuHeader {
+  background-color: #fff;
+  padding: 20px 0 5px;
+  border-bottom: 1px solid #d5dbdb;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+}
+.sidemenuContent {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+}
+.sidemenuOrder {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sidemenuOrder li {
+  list-style: none;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+    background: rgb(0 0 0 / 75%);
+}

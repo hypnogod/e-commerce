@@ -1,0 +1,127 @@
+.productScreenCZnt {
+  margin: 40px auto !important;
+  overflow: hidden;
+}
+
+.backTOR {
+  margin-left: 40px;
+  padding: 0;
+}
+.productScreeB {
+  width: 100% !important;
+}
+.imageGrid1 {
+  max-height: 700px !important;
+  min-width: 450px;
+}
+
+.imgaProductScreen {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 394px;
+  max-height: 512px;
+}
+
+@media only screen and (max-width: 500px) {
+  .imageGrid1 {
+    min-width: 350px;
+  }
+}
+
+.productDetailContainer {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+}
+
+.imageProduct {
+  width: 100%;
+  max-width: 425px;
+}
+
+.aboutThisItem {
+  font-size: 18px !important;
+  line-height: 24px !important;
+  font-weight: 600;
+}
+
+.desMainContain > * {
+    margin-top: 10px;
+}
+
+.productListDesc {
+  min-width: 250px;
+  max-width: 620px !important;
+  display: block;
+  border-radius: 8px;
+  max-height: 300px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+}
+.productListDesc > li {
+    width: 95%;
+    font-size: 17px;
+    margin: 10px auto;
+}
+
+.dividedLine {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+.produLinkHov {
+  color: #007185;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.produLinkHov:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c7511f;
+}
+.produDesMain {
+  min-width: 320px !important;
+  min-height: 300px;
+  width: 100%;
+}
+
+.priceProd {
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #b12704 !important;
+}
+
+.produDesMain h3 {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+.produSignUpCheckOut {
+  min-width: 250px;
+  max-width: 320px !important;
+  display: block;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px #d5d9d9 solid;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.produSignUpCheckOut > * {
+  margin-top: 10px;
+}
+
+.seclProduChe > * {
+  margin-top: 10px;
+}
+
+.seclProduChe > select {
+  line-height: 20px;
+  padding: 8px 10px;
+  outline: none;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: inset -2px 0px 20px 0px #0000003b;
+}

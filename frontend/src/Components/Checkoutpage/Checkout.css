@@ -1,0 +1,65 @@
+.notCheckoutPG1Container {
+    display: flex;
+    /* min-width: 998px; */
+    padding: 14px 18px 18px;
+    margin: 0 auto;
+    background-color: #EAEDED!important;
+}
+.notCheckout_contentP1 {
+    flex: 1;
+    padding-right: 20px!important;
+}
+.notCheckedMessage {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    overflow: auto;
+    padding: 20px 0 15px 0;
+}
+@media only screen and (max-width: 900px) {
+    .ZmbztymNoChecked {
+        flex: 1 0 !important;
+    }
+    .notCheckedMessage {
+        flex-direction: column;
+    }
+}
+.ZmbztymNoChecked {
+    display: table;
+    content: "";
+    line-height: 0;
+    font-size: 0;
+    flex: 1 1;
+}
+.emptyCardButtonContainer {
+    margin: 20px 0px;
+}
+.emptyCardButtonContainer a {
+    margin-right: 10px;
+}
+
+.cartEmpty {
+    padding: 20px;
+    flex: 1;
+}
+
+.coloumAdContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.emptyCardDealLink {
+    margin-top: 10px;
+    color: #007185;
+}
+.emptyCardDealLink:hover {
+    text-decoration: underline;
+}
+.signInEmptyCartButton {
+    background: linear-gradient(to right, #5a89e5, #4aa9e1, #3ac9dd );
+    color: white !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}

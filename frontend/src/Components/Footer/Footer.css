@@ -1,0 +1,73 @@
+.overallFooterContainer {
+    overflow: hidden;
+}
+.navtoTop {
+    color: #FFF;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 16px;
+    background-color: #37475A;
+    cursor: pointer;
+}
+.navtoTop:hover {
+    background-color: #485769;
+}
+
+.footerP2_container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 20px 0px 80px 0px;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: #232F3E;
+    display: flex;
+}
+.footer_coloum {
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+    color: #DDD !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 120%;
+}
+.footer_coloum span {
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.footer_coloum span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer_coloum strong {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    margin: 6px 0 14px 0;
+    white-space: nowrap;
+}
+
+.footer_coloum .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+.footer_coloum a {
+    color: #DDD !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 540px) {
+    .footerP2_container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer_coloum {
+        margin-bottom: 20px;
+    }
+    .footerP2_container {
+        padding: 20px 0px 20px 0px;
+    }
+}

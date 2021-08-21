@@ -1,0 +1,40 @@
+.sideAdvContainer {
+  border-radius: 8px;
+  position: relative;
+  padding: 14px 18px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.sideAdvContainer h5 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px !important;
+  line-height: 20px;
+}
+.sideProductItems {
+  display: flex;
+  flex-direction: column;
+}
+.sideImgPro {
+  width: 112px;
+  overflow: hidden;
+}
+.sideProduct {
+  display: flex;
+  align-items: center;
+}
+.sideAdInfo {
+  display: flex;
+  flex-direction: column;
+}
+.sideAdInfo > * {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 730px) {
+  .sideAdvContainer {
+    display: none;
+    visibility: hidden;
+  }
+}

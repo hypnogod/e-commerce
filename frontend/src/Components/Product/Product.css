@@ -1,0 +1,113 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  max-height: 400px;
+  max-width: 500px;
+  min-width: 200px;
+  background-color: white;
+  z-index: 1;
+}
+.productInfo {
+  height: 100px;
+  margin-bottom: 15px;
+}
+.pricesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.productImageF {
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.productTitle {
+  font-size: 21px !important;
+  line-height: 27.3px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 2.5em;
+}
+.UnavaibleproductButton {
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  width: 250px;
+}
+.productCButton {
+  background: linear-gradient(to right, #5a89e5, #4aa9e1, #3ac9dd) !important;
+  color: white !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  width: 250px;
+  cursor: pointer;
+  /* box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  height: 29px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100%; */
+}
+.productCButton:hover {
+  box-shadow: 0px 1px 6px 3px rgb(0 194 255 / 39%) !important;
+}
+
+/* .productContainer > button:hover {
+  background-color: #f0c14b;
+} */
+
+.price {
+  font-size: 18px;
+  line-height: 24px !important;
+  font-weight: 400 !important;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #565959;
+  font-size: 13px !important;
+}
+
+.currency {
+  top: -0.5em;
+  font-size: 12px;
+  position: relative;
+}
+
+.ratingStarts {
+  display: flex;
+}
+
+.addToCartT {
+  position: sticky !important;
+  margin: 0 10px;
+  animation: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.CardlinkProduct {
+  text-decoration: none !important;
+  color: black;
+}
+.skePriceCon {
+  width: 100%;
+  justify-content: flex-start;
+}
+.skePriceCon > * {
+  margin: 0 10px 0 10px;
+}
+
+.hideButtonPro {
+  visibility: hidden;
+}

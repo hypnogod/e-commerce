@@ -1,0 +1,74 @@
+.logShipPayoutStCont {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(234, 237, 237);
+}
+.lonShipSecondCont {
+  width: 80%;
+  margin: 3vh auto;
+  padding: 20px;
+  max-width: 600px;
+}
+.shipCartShipping {
+  padding: 0 20px 20px 20px;
+  height: 500px;
+}
+.shipInputContCorrect {
+  height: 500px;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.otherPageCOntainer {
+  padding: 0 20px 20px 20px;
+}
+.otherPageCOntainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shipCartShipping h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shipCartInput {
+  border: 0;
+  margin-bottom: 10px;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+  width: 100%;
+}
+.shipCartInput input {
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+  font-size: 1rem;
+  cursor: text;
+  padding: 16px 14px;
+  border: 1px solid rgb(196 196 196);
+  outline: none;
+}
+.shipCartInput input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.listitemConfirm {
+  max-width: 250px;
+  word-break: break-all;
+  margin: 10px;
+}
+.listContainerConfirm {
+  height: 400px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 600px) {
+  .shipCartShipping {
+    overflow-y: scroll;
+  }
+}
