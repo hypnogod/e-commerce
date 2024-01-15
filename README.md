@@ -1,5 +1,7 @@
 # e-commerce
 
+https://www.youtube.com/watch?v=L3cAsmvKC4g
+
 Link: https://ecommerce-placeholder.web.app/
 
 ```
